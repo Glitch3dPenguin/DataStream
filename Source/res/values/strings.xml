@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Data Stream Testing</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_donate">Donate</string>
+    <string name="welcome">Welcome to DataStream. This app is used to send your Android device sensor data back to a microcontroller over bluetooth.</string>
+    <string name="light_sensor_data">Light Sensor Data:</string>
+    <string name="x_axis">X-Axis:</string>
+    <string name="y_axis">Y-Axis:</string>
+    <string name="z_axis">Z-Axis:</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   
+<TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/welcome"
+	/>
+
+    <Space
+            android:layout_width="54dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="29dp"/>
+
+    <TextView
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textColor="@color/labels"
+   android:text="@string/light_sensor_data"
+   />
+
+<TextView
+    android:textColor="@color/active_data"
+    android:id="@+id/lightsensor"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	/>
+
+<TextView
+    android:textColor="@color/active_data"
+    android:id="@+id/lightsensordata"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	/>
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/x_axis"
+    android:textColor="@color/labels" />
+
+<TextView
+    android:id="@+id/x"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/active_data" />
+
+<TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textColor="@color/labels"
+   android:text="@string/y_axis"
+	/>
+
+<TextView
+	android:id="@+id/y"
+	android:textColor="@color/active_data"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+
+<TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:textColor="@color/labels"
+   android:text="@string/z_axis"
+	/>
+
+<TextView
+	android:id="@+id/z"
+	android:textColor="@color/active_data"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+
+</LinearLayout>
